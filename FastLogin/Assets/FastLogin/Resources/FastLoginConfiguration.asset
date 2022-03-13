@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ab4a990d296bc48999f02612b8e915, type: 3}
+  m_Name: FastLoginConfiguration
+  m_EditorClassIdentifier: 
+  clientID: fastlogintest
+  clientSecret: xD0SRhJw_bOz0E_oBUXtEiDXB0LEkhXXzVPb3MZo_ADWttWTWhMp-zMEjv7oOacNSY3_fd6Za0GMz6z9JoAHMyV
+  redirectUrl: http://127.0.0.1
+  authorizationEndpoint: https://mobcon.turkcell.com.tr/mobileconnect/oauth/authorize?client_id=fastlogintest&scope=phone%20openid&redirect_uri=http://127.0.0.1&response_type=code&state=State.tMEA__qBH1vDpTNM6o6PF8e7Di0RbRi4rj5DNCGIAN51YbiQ8vn0xXhRwy3cuMUN6994uUdwVggd9CiNxebJggA&nonce=Nonce.bE06DM487mAYfyxDmmXo_3iTT6nQqsLEH8mBjMeJQzXLAnnZF0TEjQxkEhXyghUXT-4z8-vYOY2lsMt7mrWk46&prompt=login&acr_values=2&display=page&ui_locales=tr&claims_locales=tr
+  tokenEndpoint: https://mobcon.turkcell.com.tr/mobileconnect/oauth/token
+  userInfoEndpoint: https://mobcon.turkcell.com.tr/mobileconnect/userinfo
